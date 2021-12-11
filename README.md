@@ -2,7 +2,7 @@
 
 <br />
 <div align="center">
-  <img src="![image](https://kotlinlang.org/lp/mobile/static/kmm-hero-mobile-e68d7931df1df74afe72f886177b72d6.png)" alt="KMM Logo" height="300">
+  <img src="https://i.imgur.com/laYS2Il.png" alt="KMM Logo" height="200">
   <h3 align="center">TODO List App</h3>
   <p align="center">
     A simple TODO App using Kotlin Multiplatform Mobile
@@ -14,7 +14,7 @@
 The UI and UX of the application is inspired by [Liva Veidemane](https://www.behance.net/livaveidemane)'s project called [_Lifetrack To-do App Design_](https://www.behance.net/gallery/129445451/Lifetrack-To-do-App-Design-UIUX)
 
 <div align="center">
-  <img src="![image](https://user-images.githubusercontent.com/29527763/145686935-88141dd5-0fe5-46b0-b1f2-ecbefbcbe8b6.png)" alt="Design Inspiration" height="1000">
+  <img src="https://user-images.githubusercontent.com/29527763/145686935-88141dd5-0fe5-46b0-b1f2-ecbefbcbe8b6.png" alt="Design Inspiration">
 </div>
 
 <br />
@@ -68,9 +68,9 @@ ___
 ## Roadmap
 
 - [ ] Project Setup
+  - [X] Readme About the Project
+  - [X] List of epics and stories
   - [ ] Environment Preparation
-  - [ ] Readme About the Project
-  - [ ] List of epics and stories
 - [ ] User Authentication
   - [ ] User Login
   - [ ] User Registration
