@@ -75,9 +75,17 @@ As a user, I want to complete a task, so I can organize myself to see only what'
 ### Task Incompletion
 As a user, I want to mark a task as incomplete, so I can rollback any task that I need to do again.
 ___
-# Main Tools Used
+# Main Tools
 
-* **[Kotlin Multiplatform Mobile](https://kotlinlang.org/lp/mobile/)**: Used as a solution to share business logic between iOS and Android mobile platforms. It will allow me to avoid duplicating business logic code into two platforms, thus allowing me to only take care of view and presenter's based code.
+## [Kotlin Multiplatform Mobile](https://kotlinlang.org/lp/mobile/)
+
+<div align="center">
+  <img src="https://kotlinlang.org/lp/mobile/static/sdk-392342a1bb7fde8faa08e60b07d5c802.svg" alt="Design Inspiration" height="400">
+</div>
+
+<br />
+
+KMM is used as a solution to share business logic between iOS and Android mobile platforms. It will allow me to avoid duplicating business logic code into two platforms, thus allowing me to only take care of view and presenter's based code.
 
 # Roadmap
 
