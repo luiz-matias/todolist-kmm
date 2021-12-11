@@ -89,10 +89,10 @@ KMM is used as a solution to share business logic between iOS and Android mobile
 
 # Roadmap
 
-- [ ] Project Setup
+- [X] Project Setup
   - [X] Readme About the Project
   - [X] List of epics and stories
-  - [ ] Environment Preparation
+  - [X] Environment Preparation
 - [ ] Authentication
   - [ ] Login
   - [ ] Registration
