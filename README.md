@@ -95,63 +95,63 @@ KMM is used as a solution to share business logic between iOS and Android mobile
   - [X] Environment Preparation
 - [ ] Authentication
   - [ ] Login
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Registration
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Password Recovery
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
 - [ ] Account Management
   - [ ] Edit Account
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Change Password
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Delete Account
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Logout
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
 - [ ] Task Management
   - [ ] Task Registration
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Task Editing
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Task Deletion
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
 - [ ] Task Listing
   - [ ] List of Pending Tasks
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] List of Done Tasks
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
 - [ ] Task Completion Management
   - [ ] Task Completion
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
   - [ ] Task Incompletion
-    - [ ] Business Rules
+    - [X] Business Rules
     - [ ] Layout
     - [ ] Integration
 
