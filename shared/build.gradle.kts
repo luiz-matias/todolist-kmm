@@ -1,11 +1,12 @@
 plugins {
     kotlin("multiplatform")
+    kotlin("plugin.serialization") version "1.5.31"
     id("com.android.library")
 }
 
 kotlin {
     android()
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -17,14 +18,32 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                //Coroutines for async
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-RC2")
+
+                //Ktor for network requests
+                implementation("io.ktor:ktor-client-core:1.6.7")
+                implementation("io.ktor:ktor-client-logging:1.6.7")
+                implementation("io.ktor:ktor-client-serialization:1.6.7")
+
+                //Koin for DI
+                implementation("io.insert-koin:koin-core:3.1.4")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test-common"))
                 implementation(kotlin("test-annotations-common"))
             }
         }
-        val androidMain by getting
+        val androidMain by getting {
+            dependencies {
+                implementation("io.ktor:ktor-client-android:1.6.7")
+                implementation("io.ktor:ktor-client-okhttp:1.6.7")
+            }
+        }
         val androidTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
@@ -34,10 +53,13 @@ kotlin {
         val iosX64Main by getting
         val iosArm64Main by getting
         //val iosSimulatorArm64Main by getting
-        val iosMain by creating {
+        val iosMain by getting {
             dependsOn(commonMain)
             iosX64Main.dependsOn(this)
             iosArm64Main.dependsOn(this)
+            dependencies {
+                implementation("io.ktor:ktor-client-ios:1.6.7")
+            }
             //iosSimulatorArm64Main.dependsOn(this)
         }
         val iosX64Test by getting
