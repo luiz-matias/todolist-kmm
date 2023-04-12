@@ -11,7 +11,7 @@
 
 # Design Inspiration
 
-The UI and UX of the application is inspired by [Liva Veidemane](https://www.behance.net/livaveidemane)'s project called [_Lifetrack To-do App Design_](https://www.behance.net/gallery/129445451/Lifetrack-To-do-App-Design-UIUX)
+The UI and UX of the application is inspired by [Liva Roma](https://www.behance.net/livaroma)'s project called [_Lifetrack To-do App Design_](https://www.behance.net/gallery/129445451/Lifetrack-To-do-App-Design-UIUX)
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/29527763/145686935-88141dd5-0fe5-46b0-b1f2-ecbefbcbe8b6.png" alt="Design Inspiration">
@@ -80,7 +80,7 @@ ___
 ## [Kotlin Multiplatform Mobile](https://kotlinlang.org/lp/mobile/)
 
 <div align="center">
-  <img src="https://kotlinlang.org/lp/mobile/static/sdk-392342a1bb7fde8faa08e60b07d5c802.svg" alt="Design Inspiration" height="400">
+  <img src="https://kotlinlang.org/lp/mobile/static/sdk-313e52f7d9d3b3e3e48471ef06e8e3aa.svg" alt="KMM Graphical Representation" height="400">
 </div>
 
 <br />
