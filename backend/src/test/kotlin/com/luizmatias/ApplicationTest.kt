@@ -1,6 +1,6 @@
 package com.luizmatias
 
-import com.luizmatias.plugins.*
+import com.luizmatias.config.configureRouting
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*

@@ -1,18 +1,31 @@
 package com.luizmatias
 
-import com.luizmatias.plugins.*
+import com.luizmatias.config.*
+import com.luizmatias.di.appModule
 import io.ktor.server.application.*
-import io.ktor.server.engine.*
-import io.ktor.server.netty.*
+import org.koin.ktor.plugin.Koin
+import org.koin.logger.slf4jLogger
 
-fun main() {
-    embeddedServer(Netty, port = 8080, host = "0.0.0.0", module = Application::module)
-        .start(wait = true)
+fun main(args: Array<String>) {
+    io.ktor.server.netty.EngineMain.main(args)
 }
 
 fun Application.module() {
+    //Dependency Injection
+    install(Koin) {
+        slf4jLogger()
+        modules(appModule(this@module))
+    }
+    //Json
     configureSerialization()
-    configureDatabases()
+    //Logging request calls
+    configureMonitoring()
+    //Default headers and CORS
+    configureHTTP()
+    //JWT Auth
     configureSecurity()
+    //Status pages
+    configureStatusPages()
+    //Routes
     configureRouting()
 }

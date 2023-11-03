@@ -1,0 +1,18 @@
+ktor:
+    development: true
+    environment: "$KTOR_ENV:dev"
+    application:
+        modules:
+            - com.luizmatias.ApplicationKt.module
+    deployment:
+        port: "$PORT:8080"
+jwt:
+    domain: "https://luizmatias.com/"
+    audience: "api-clients"
+    realm: "ktor todolist API"
+    secret: "$JWT_SECRET:12345678"
+database:
+    driver: "org.postgresql.Driver"
+    url: "$POSTGRES_URL:jdbc:postgresql://localhost:5432/todolist"
+    user: "$POSTGRES_USER:todolist-api-user"
+    password: "$POSTGRES_PASSWORD:password"
